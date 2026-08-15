@@ -32,12 +32,8 @@ export function CompetitiveSection() {
             />
           </a>
 
-          <div className="mt-4 grid grid-cols-2 gap-3">
+          <div className="mt-4 max-w-48">
             <Stat value={String(codeforces.rating)} label={codeforces.rank} />
-            <Stat
-              value={String(codeforces.maxRating)}
-              label={`max - ${codeforces.maxRank}`}
-            />
           </div>
 
           <ul className="mt-6 space-y-3">

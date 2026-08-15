@@ -1,11 +1,8 @@
 export const codeforces = {
   handle: "_chirata_",
   url: "https://codeforces.com/profile/_chirata_",
-  rating: 1292,
-  rank: "pupil",
-  maxRating: 1464,
-  maxRank: "specialist",
-  lastChecked: "2026-08",
+  rating: 1464,
+  rank: "specialist",
 } as const;
 
 export const algorithmTopics: readonly string[] = [
