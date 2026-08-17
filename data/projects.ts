@@ -87,7 +87,7 @@ export const otherProjects: readonly SmallProject[] = [
     description:
       "Binance websocket ticks into Postgres, batched into explicit transactions with a bounded buffer so a crash can only lose whole batches. The database has no published port and pg_hba.conf accepts exactly one internal IP.",
     tags: ["Python", "Docker", "PostgreSQL"],
-    repo: { private: true },
+    repo: { url: "https://github.com/chirataandrei/Market-Data-Pipeline" },
   },
   {
     title: "Pairs Trading Strategy",
