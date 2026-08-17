@@ -49,7 +49,7 @@ export const featuredProjects: readonly Project[] = [
       "Free blocks are coalesced with their neighbours and split when oversized; realloc first tries to expand in place, absorbing adjacent free blocks one at a time, and only copies when the block genuinely has to move.",
       "Correctness is checked by diffing the exact syscall trace of every operation against a reference implementation across the full test suite, which catches wrong block reuse and split decisions that a value-only test would miss.",
     ],
-    repo: { private: true },
+    repo: { url: "https://github.com/chirataandrei/Memory-Allocator" },
   },
   {
     slug: "provctl",
